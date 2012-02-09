@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*a:focus, a:hover{
+	color: green;
+}*/
+a {
+text-decoration:none;
+}
+
+h1{
+	font: bold 20px Tahoma;
+	
+}
+h2{
+	font: bold 14px Tahoma;
+	
+}
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+body{
+	text-align: center;
+	background-image: url(../images/hixs_pattern_evolution.png);	
+}
+#big_wrapper{
+	border: 1px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+	background-image: url(../images/wash-white.png);
+}
+#top_header{
+	/*border: 1px solid blue;*/
+	padding: 20px;
+	background: url(../images/head_bg.png) #474747;
+}
+
+#top_header>h1>a{
+	color: #999;
+	/*color: #dc0d0d;*/
+	/*text-shadow: 3px 3px 1px #b19999;*/
+	letter-spacing: -5px;
+    text-shadow: 0px 3px 8px #2A2A2A;
+	font: 80px Helvetica, Arial, Sans-Serif;
+}
+
+#top_menu{
+	/*background-color: #99cae8;*/
+	float: right;
+}
+#top_menu li{
+	display: inline;
+	list-style: none;
+	padding: 5px;
+	font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-shadow: 0px 2px 3px #555;
+	color: #000000;
+}
+
+#top_menu a{
+	color: #222;
+}
+
+#top_menu a:hover{
+	color: silver;
+}
+
+
+#main_section{
+	float: left;
+	width: 660px;
+	margin: 30px; /* 720px, 280 left */
+}
+#slide{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66cccc;
+}
+#the_footer{
+	clear: both;
+	color: #999;
+	text-align: center;
+	text-shadow: 0px 3px 8px #2A2A2A;
+	font: 20px Helvetica, Arial, Sans-Serif;
+	padding: 20px;
+	/*border-top: 2px solid green;*/
+	background-image: url(../images/head_bg.png);
+}
+article{
+	background: #fffbcc;
+	border: 1px solid red;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+article footer{
+	text-align: right;
+}
+
+.component{
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	border-radius:5px 5px 5px 5px;
+	background-color: white;
+}
+
+#contact{
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+

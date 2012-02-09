@@ -1,4 +1,11 @@
 Rsars::Application.routes.draw do
+  
+  resources :users
+
+  root :to => "pages#home"
+
+  match '/contact', :to => 'pages#contact'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
